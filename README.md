@@ -1,14 +1,14 @@
-# [mattiasohlsson/centos-blender-2.8-builder](https://hub.docker.com/r/mattiasohlsson/centos-blender-2.8-builder/)
+# [plinecom/centos-blender-2.8-builder](https://hub.docker.com/r/plinecom/centos-blender-2.8-builder/)
 
 ## Usage
 
 ### Automatic build
 
-    docker run --storage-opt size=20G mattiasohlsson/centos-blender-2.8-builder
+    docker run plinecom/docker-centos-blender-2.8-builder
 
 ### Automatic build (advanced)
 
-    docker create --name blender-builder --storage-opt size=20G mattiasohlsson/centos-blender-2.8-builder
+    docker create --name blender-builder plinecom/docker-centos-blender-2.8-builder
 
 Repeat:
 
@@ -17,7 +17,7 @@ Repeat:
 
 ### Manual build
 
-    docker run -it --storage-opt size=20G mattiasohlsson/centos-blender-2.8-builder bash
+    docker run -it plinecom/docker-centos-blender-2.8-builder bash
 
 Use devtoolset-7.
 
@@ -27,4 +27,4 @@ Run /usr/bin/start or go to $HOME/blender-git/.
 
 ## Source
 
-[github.com/mattias-ohlsson/docker-centos-blender-2.8-builder](https://github.com/mattias-ohlsson/docker-centos-blender-2.8-builder)
+[github.com/plinecom/docker-centos-blender-2.8-builder](https://github.com/plinecom/docker-centos-blender-2.8-builder)

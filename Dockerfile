@@ -1,6 +1,6 @@
 FROM centos
 
-LABEL maintainer="mattias.ohlsson@inprose.com"
+LABEL maintainer="plinecom@gmail.com"
 
 ENV HOME /root
 WORKDIR $HOME
