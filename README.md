@@ -1,4 +1,4 @@
-# [plinecom/centos-blender-2.8-builder](https://hub.docker.com/r/plinecom/centos-blender-2.8-builder/)
+# [plinecom/docker-centos-blender-2.8-builder](https://hub.docker.com/r/plinecom/docker-centos-blender-2.8-builder/)
 
 ## Usage
 
