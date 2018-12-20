@@ -28,7 +28,7 @@ RUN alternatives --install /usr/bin/python3 python3 /bin/python36 20 \
     --family python3
 
 # Install NASM
-RUN curl -O https://www.nasm.us/pub/nasm/releasebuilds/2.13.03/nasm-2.13.03.tar.gz \
+RUN curl -O https://www.nasm.us/pub/nasm/releasebuilds/2.14/nasm-2.14.tar.gz \
  && tar xf nasm-*.tar.gz && cd nasm-*/ \
  && ./configure && make && make install \
  && cd && rm -rf $HOME/nasm-*
