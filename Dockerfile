@@ -14,7 +14,6 @@ RUN yum -y install centos-release-scl epel-release \
     python-setuptools subversion tcl yasm devtoolset-7-gcc-c++ libtool \
     libX11-devel libXcursor-devel libXi-devel libXinerama-devel \
     libXrandr-devel libXt-devel mesa-libGLU-devel zlib-devel \
-    python-devel ilmbase-devel \
  && yum clean all
 
 # Use cmake3
